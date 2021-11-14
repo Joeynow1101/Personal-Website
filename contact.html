@@ -4,37 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylecontact.css" />
     <title>Document</title>
   </head>
   <body>
     <section>
-      <h3>Let´s get in touch</h3>
-      <h4>Name</h4>
-      <form>
-        <div>
-          <input name="name" type="text" placeholder="Name" />
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <div class="box">
+        <div class="container">
+          <div class="form">
+            <form>
+              <h2>Let´s get in touch</h2>
+              <label for="name" ></label><br />
+              <input type="text" id="name" name="name" placeholder="Name"/><br />
+              <label for="email"></label><br />
+              <input type="email" id="email" name="email" placeholder="E-mail"/><br />
+              <label for="checkbox"></label><br />
+              <textarea name="text" id="text" placeholder="Your message"></textarea><br />
+              <input
+                type="checkbox"
+                id="newsletter"
+                name="newsletter"
+                value="newsletter"
+              />
+              <label for="newsletter">Yes, please send me the newsletter</label
+              ><br />
+              
+                <input type="submit" id="submit" value="SUBMIT" />
+              
+            </form>
+          </div>
         </div>
-
-        <h4>E-Mail</h4>
-        <div>
-          <input name="email" type="text" placeholder="Email" />
-        </div>
-
-        <div>
-          <h4>Your message</h4>
-          <textarea name="text" placeholder="Comment"></textarea>
-        </div>
-        <div>
-          <input
-            type="checkbox"
-            id="newsletter"
-            name="subscribe"
-            value="newsletter"
-          />
-          <label for="newsletter">Yes, please send me the newsletter</label>
-        </div>
-        <input type="submit" value="SUBMIT" />
-      </form>
+      </div>
     </section>
   </body>
 </html>

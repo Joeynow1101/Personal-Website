@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow: hidden;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #222831;
+}
+.box {
+  position: relative;
+}
+.container {
+  position: relative;
+  width: 600px;
+  min-height: 600px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: rgba(255, 255, 255, 0.2);
+  border-bottom: rgba(255, 255, 255, 0.2);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.form {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form h2 {
+  position: relative;
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+.form h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  width: 80px;
+  height: 4px;
+  background: white;
+}
+.form input {
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: rgba(255, 255, 255, 0.2);
+  border-bottom: rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+.form input::placeholder {
+  color: white;
+}
+#submit {
+  background: white;
+  color: #666;
+  max-width: 100px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+#text {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: rgba(255, 255, 255, 0.2);
+  border-bottom: rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+#text::placeholder {
+  color: white;
+}
+
+#name {
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+}
+#email {
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+}
+#text {
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+}
+#newsletter {
+  margin: 10px 0px 10px 0px;
+}
+#submit {
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+}
+
+form label {
+  color: white;
+}
+
+.circle1 {
+  position: absolute;
+  width: 900px;
+  height: 900px;
+  background-color: #00adb5;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  top: 50px;
+  left: 50px;
+  filter: blur(200px);
+  -webkit-filter: blur(200px);
+}
+.circle2 {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  background-color: #00adb5;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  top: -50px;
+  right: 150px;
+  filter: blur(200px);
+  -webkit-filter: blur(200px);
+}
